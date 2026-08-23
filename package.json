@@ -4,13 +4,13 @@
   "description": "Last-Mile Delivery Management Platform with dynamic pricing, agent auto-assignment, live tracking, and failed delivery rescheduling.",
   "main": "server/src/index.ts",
   "scripts": {
-    "setup": "npm install && cd server && npm install && npx prisma migrate dev --name init && npx prisma db seed && cd ../client && npm install",
+    "setup": "npm install && cd server && npm install && npx prisma@5 db push && npx prisma@5 db seed && cd ../client && npm install",
     "dev:server": "cd server && npm run dev",
     "dev:client": "cd client && npm run dev",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "build": "cd server && npm run build && cd ../client && npm run build",
     "start": "cd server && npm start",
-    "seed": "cd server && npx prisma db seed",
+    "seed": "cd server && npx prisma@5 db seed",
     "zip": "node scripts/zip-project.js"
   },
   "keywords": [
