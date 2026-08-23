@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../services/api';
 import { useNotification } from '../context/NotificationContext';
-import { MapPin, Plus, Trash2, Shield, LayerGroup } from 'lucide-react';
+import { MapPin, Plus, Trash2, Shield, Layers } from 'lucide-react';
 
 export const AdminZoneEditor: React.FC = () => {
   const { showToast } = useNotification();

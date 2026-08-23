@@ -76,7 +76,7 @@ export const TrackingTimeline: React.FC<TrackingTimelineProps> = ({ order, onOpe
             borderRadius: 'var(--radius-lg)',
             display: 'flex',
             alignItems: 'center',
-            justify: 'space-between',
+            justifyContent: 'space-between',
             flexWrap: 'wrap',
             gap: '1rem',
           }}
@@ -142,7 +142,7 @@ export const TrackingTimeline: React.FC<TrackingTimelineProps> = ({ order, onOpe
                     border: `2px solid ${isFailed && isCurrent ? 'var(--accent-rose)' : isCompleted ? '#3b82f6' : 'rgba(255,255,255,0.2)'}`,
                     display: 'flex',
                     alignItems: 'center',
-                    justify: 'center',
+                    justifyContent: 'center',
                     color: '#fff',
                     boxShadow: isCurrent ? '0 0 15px rgba(59, 130, 246, 0.5)' : 'none',
                   }}

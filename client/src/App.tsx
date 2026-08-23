@@ -63,7 +63,7 @@ const MainContent: React.FC = () => {
       <footer style={{ borderTop: '1px solid var(--border-color)', padding: '1.5rem', textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-dim)', marginTop: '3rem' }}>
         <div>LogixPulse Last-Mile Logistics Engine • Rate Calculation Engine & Intelligent Agent Auto-Assignment Platform</div>
         <div style={{ marginTop: 4, fontFamily: 'var(--font-mono)', fontSize: '0.7rem' }}>
-          Volumetric Billing Formula: $\frac{\text{L} \times \text{W} \times \text{H}}{5000} \text{ (kg)}$ | Role-Based Control Access (Admin / Agent / Customer)
+          Volumetric Billing Formula: (Length × Width × Height) / 5000 (kg) | Role-Based Control Access (Admin / Agent / Customer)
         </div>
       </footer>
 
