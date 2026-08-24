@@ -2,6 +2,8 @@
 
 > A last-mile logistics management platform featuring dynamic rate card calculation, volumetric billing engine, admin zone management, intelligent agent auto-assignment, immutable audit tracking history, failed delivery rescheduling flow, and multi-channel notifications.
 
+🌐 **Live Hosted Website (GitHub Pages)**: [https://shivansh4705.github.io/last_mile_delivery/](https://shivansh4705.github.io/last_mile_delivery/)
+
 ---
 
 ## 🌟 Key Features
